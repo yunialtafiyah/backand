@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_hours_display_post_2s",
+  "info": {
+    "displayName": "display_post_2",
+    "icon": "calendar"
+  },
+  "options": {},
+  "attributes": {
+    "start_hours": {
+      "type": "time",
+      "required": true
+    },
+    "stop_hours": {
+      "type": "time",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "provinsis",
+  "info": {
+    "singularName": "provinsi",
+    "pluralName": "provinsis",
+    "displayName": "Provinsi",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nama_prov": {
+      "type": "string"
+    },
+    "kode_prov": {
+      "type": "biginteger"
+    },
+    "kabupatens": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::kabupaten.kabupaten",
+      "mappedBy": "provinsi"
+    }
+  }
+}

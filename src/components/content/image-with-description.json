@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_content_image_with_descriptions",
+  "info": {
+    "displayName": "Image With Description",
+    "icon": "cloud"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

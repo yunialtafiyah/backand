@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_text_dusuns",
+  "info": {
+    "displayName": "Dusun",
+    "icon": "file"
+  },
+  "options": {},
+  "attributes": {
+    "rt": {
+      "type": "integer"
+    },
+    "rw": {
+      "type": "integer"
+    }
+  }
+}

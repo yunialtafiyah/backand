@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_content_title_with_subtitles",
+  "info": {
+    "displayName": "Title With Subtitle",
+    "icon": "cloud"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    }
+  }
+}

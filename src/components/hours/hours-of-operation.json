@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_hours_hours_of_operations",
+  "info": {
+    "displayName": "hours_of_operation",
+    "icon": "clock"
+  },
+  "options": {},
+  "attributes": {
+    "day_interval": {
+      "type": "string"
+    },
+    "opening_hour": {
+      "type": "string"
+    },
+    "closing_hour": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "HomePage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "dynamiczone",
+      "components": [
+        "content.title-with-subtitle"
+      ]
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "content.image-with-description"
+      ]
+    }
+  }
+}

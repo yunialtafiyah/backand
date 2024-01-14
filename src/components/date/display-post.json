@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_date_display_posts",
+  "info": {
+    "displayName": "display_post",
+    "icon": "calendar"
+  },
+  "options": {},
+  "attributes": {
+    "start_date": {
+      "type": "date",
+      "required": true
+    },
+    "stop_date": {
+      "type": "time",
+      "required": true
+    }
+  }
+}

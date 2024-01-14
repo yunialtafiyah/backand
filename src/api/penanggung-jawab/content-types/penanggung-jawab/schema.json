@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "penanggung_jawabs",
+  "info": {
+    "singularName": "penanggung-jawab",
+    "pluralName": "penanggung-jawabs",
+    "displayName": "penanggung_jawab"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nama": {
+      "type": "string"
+    },
+    "lab": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::lab.lab",
+      "inversedBy": "penanggung_jawabs"
+    }
+  }
+}

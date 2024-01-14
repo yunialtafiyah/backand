@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "labs",
+  "info": {
+    "singularName": "lab",
+    "pluralName": "labs",
+    "displayName": "lab",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nama_lab": {
+      "type": "string"
+    },
+    "kapasitas": {
+      "type": "integer"
+    },
+    "penanggung_jawabs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::penanggung-jawab.penanggung-jawab",
+      "mappedBy": "lab"
+    }
+  }
+}

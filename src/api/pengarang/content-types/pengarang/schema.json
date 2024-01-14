@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pengarangs",
+  "info": {
+    "singularName": "pengarang",
+    "pluralName": "pengarangs",
+    "displayName": "Pengarang",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nama_pengarang": {
+      "type": "string"
+    },
+    "penerbits": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::penerbit.penerbit",
+      "mappedBy": "pengarangs"
+    }
+  }
+}

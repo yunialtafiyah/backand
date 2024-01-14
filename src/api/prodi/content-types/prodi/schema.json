@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "prodis",
+  "info": {
+    "singularName": "prodi",
+    "pluralName": "prodis",
+    "displayName": "Prodi"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "kode": {
+      "type": "string"
+    },
+    "nama": {
+      "type": "string"
+    }
+  }
+}

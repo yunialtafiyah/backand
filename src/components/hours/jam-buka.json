@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_hours_jam_bukas",
+  "info": {
+    "displayName": "jam_buka",
+    "icon": "clock"
+  },
+  "options": {},
+  "attributes": {
+    "jam_buka": {
+      "type": "string"
+    },
+    "jam_tutup": {
+      "type": "string"
+    }
+  }
+}

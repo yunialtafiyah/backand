@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categoris",
+  "info": {
+    "singularName": "categori",
+    "pluralName": "categoris",
+    "displayName": "Categori",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "restaurants": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::restaurant.restaurant",
+      "inversedBy": "categoris"
+    }
+  }
+}

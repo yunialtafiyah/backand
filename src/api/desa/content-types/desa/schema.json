@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "desas",
+  "info": {
+    "singularName": "desa",
+    "pluralName": "desas",
+    "displayName": "Desa",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "kode_des": {
+      "type": "biginteger"
+    },
+    "nama_des": {
+      "type": "string"
+    },
+    "kecamatan": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::kecamatan.kecamatan",
+      "inversedBy": "desas"
+    }
+  }
+}

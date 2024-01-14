@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "penerbits",
+  "info": {
+    "singularName": "penerbit",
+    "pluralName": "penerbits",
+    "displayName": "Penerbit",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nama_penerbit": {
+      "type": "string"
+    },
+    "pengarangs": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::pengarang.pengarang",
+      "inversedBy": "penerbits"
+    }
+  }
+}
